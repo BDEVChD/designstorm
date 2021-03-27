@@ -25,8 +25,7 @@ class PageController extends Controller
         $body = $res->getBody();
         $bodyString = $body->__toString();
         $data = json_decode($bodyString);
-        $imageUrl = $data[1]->urls->raw;
-        // return var_dump($data[0]->urls->raw);
+        $imageUrl = $data[0]->urls->raw;
         
 
         // foreach($data->results as $result){
