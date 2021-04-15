@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="container"><a class="logo" href="../index.html">Design Storm</a>
+      <div class="container"><a class="logo" href="/">Design Storm</a>
         <nav><a href="/register">register</a><a href="/login">login</a></nav>
       </div>
     </header>
@@ -24,28 +24,7 @@
               <div class="row">
                 <div class="col-md-3">
                   <div class="box">
-                    <div style="position: relative; background: url('<?php echo $imageUrl ?>') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
-                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="box">
-                    <div style="position: relative; background: url('https://mir-s3-cdn-cf.behance.net/projects/202/4c23c557876077.Y3JvcCwxMjIyLDk1Niw4Nyww.jpg') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
-                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="box">
-                    <div style="position: relative; background: url('https://mir-s3-cdn-cf.behance.net/projects/202/4c23c557876077.Y3JvcCwxMjIyLDk1Niw4Nyww.jpg') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
-                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="box">
-                    <div style="position: relative; background: url('https://mir-s3-cdn-cf.behance.net/projects/202/4c23c557876077.Y3JvcCwxMjIyLDk1Niw4Nyww.jpg') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
+                    <div style="position: relative; background: url('{{$imageUrl}}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
                       <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
                     </div>
                   </div>
