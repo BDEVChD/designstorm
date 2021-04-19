@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>@yield('title')</title>
-    /**<link rel="stylesheet" href="{{ asset('css/app.css') }}"> **/
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="/css/app.css">
     <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
