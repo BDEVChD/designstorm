@@ -15,7 +15,7 @@
             <nav>
             @guest
               <a href="/register">register</a>
-              <a href="/login">logins</a>
+              <a href="/login">login</a>
             @else
               <a href="/account">{{$user->name}}</a>
               <a href="{{ route('logout') }}"
