@@ -28,7 +28,10 @@ class PageController extends Controller
       
          
         $imageUrl = $data[2]->user->profile_image->large;
-        return $data; 
+        $imageUrl3 = $data[3]->user->profile_image->large;
+        // $imageUrl4 = $data[4]->user->profile_image->large;
+        // $imageUrl4 = $data[5]->user->profile_image->large;
+        // return $data; 
      
         // foreach($data[0]->urls as $category ) {
            
@@ -66,6 +69,6 @@ class PageController extends Controller
 
       
         $user = Auth::user();
-        return view('pages/results', compact('user', 'imageUrl'));
+        return view('pages/results', compact('user', 'imageUrl', 'imageUrl3' ));
     }
 }

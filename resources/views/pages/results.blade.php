@@ -29,6 +29,27 @@
                     </div>
                   </div>
                 </div>
+                 <div class="col-md-3">
+                  <div class="box">
+                    <div style="position: relative; background: url('{{$imageUrl3}}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
+                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-md-3">
+                  <div class="box">
+                    <div style="position: relative; background: url('{{$imageUrl}}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
+                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="col-md-3">
+                  <div class="box">
+                    <div style="position: relative; background: url('{{$imageUrl}}') no-repeat center center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; height: 200px;">
+                      <div class="add-btn "><i class="fa fa-check" aria-hidden="true"></i></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
